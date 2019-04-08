@@ -1,0 +1,32 @@
+Testing Prallel Region...
+This is thread: 1
+This is thread: 3
+This is thread: 0
+This is thread: 2
+
+
+Summary
+-------
+Number of elements in a row/col       :: 98306
+Number of inner elements in a row/col :: 98304
+Total number of elements              :: 1074135044
+Total number of inner elements        :: 1073741824
+Memory (MB) in each Array             :: 77312.6
+Threshold                             :: 0.1
+Smoothing constants (a, b, c)         :: 0.05 0.1 0.4
+Number of elements below threshold (X):: 28095412
+Fraction of elements below threshold  :: 0.0261659
+Number of elements below threshold (Y):: 105066
+Fraction of elements below threshold  :: 9.78503e-05
+Number of Threads                     :: 1 2 4 8 16 32 64 128 256 
+
+
+
+Action               ::   time (s)
+------
+CPU Alloc-X          :: 0.292851
+CPU Alloc-Y          :: 0.308589
+CPU Init-X           :: 172.255
+CPU Smooth           :: 41.5 12.1613 7.32787 3.8458 4.57781 4.12956 2.30468 2.09364 1.76905 
+CPU Count-X          :: 15.4892 13.7395 10.8326 9.93979 5.62802 6.85583 5.6491 3.22705 3.19837 
+CPU Count-Y          :: 16.4568 4.65421 5.32625 2.23473 3.91123 0.519824 1.18618 1.16314 1.1695 

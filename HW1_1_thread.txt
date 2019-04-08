@@ -1,0 +1,28 @@
+This is thread: 0
+
+
+Summary
+-------
+Number of elements in a row/col       :: 10
+Number of inner elements in a row/col :: 8
+Total number of elements              :: 100
+Total number of inner elements        :: 64
+Memory (MB) in each Array             :: 0.0008
+Threshold                             :: 0.1
+Smoothing constants (a, b, c)         :: 0.05 0.1 0.4
+Number of elements below threshold (X):: 7
+Fraction of elements below threshold  :: 0.109375
+Number of elements below threshold (Y):: 0
+Fraction of elements below threshold  :: 0
+Number of Threads                     :: 1
+
+
+
+Action               ::   time (s)
+------
+CPU Alloc-X          :: 1.5e-06
+CPU Alloc-Y          :: 4.98e-07
+CPU Init-X           :: 2.742e-06
+CPU Smooth           :: 2.546e-06
+CPU Count-X          :: 1.208e-06
+CPU Count-Y          :: 8.51e-07

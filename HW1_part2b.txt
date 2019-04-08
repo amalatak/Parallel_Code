@@ -1,0 +1,40 @@
+This is thread: 0
+This is thread: 6
+This is thread: 4
+This is thread: 1
+This is thread: 7
+This is thread: 2
+This is thread: 5
+This is thread: 3
+
+
+Summary
+-------
+Number of elements in a row/col       :: 10
+Number of inner elements in a row/col :: 8
+Total number of elements              :: 100
+Total number of inner elements        :: 64
+Memory (MB) in each Array             :: 0.0008
+Threshold                             :: 0.1
+Smoothing constants (a, b, c)         :: 0.05 0.1 0.4
+Number of elements below threshold (X):: 9
+Fraction of elements below threshold  :: 0.140625
+Number of elements below threshold (Y):: 0
+Fraction of elements below threshold  :: 0
+Number of Threads                     :: 8
+
+
+
+Action               ::   time (s)
+------
+CPU Alloc-X          :: 1.414e-06
+CPU Alloc-Y          :: 5.71e-07
+CPU Init-X           :: 3.178e-06
+CPU Count-X          :: 4.5129e-05
+CPU Count-Y          :: 4.4912e-05
+
+Dynamic vs Static scheduling for smoothing times
+Chunksize: 100        5.8352e-05    //    5.7449e-05
+Chunksize: 1000       4.5464e-05    //    4.569e-05 
+Chunksize: 10000      4.6321e-05    //    4.5035e-05
+Chunksize: 100000     4.3514e-05    //    4.4797e-05
